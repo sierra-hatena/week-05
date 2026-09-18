@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <style>
+            h1 {text-align: center;}
+            tr {text-align: center;}
+        </style>
+        <h1>Curriculum Vitae</a></h1>
+        <img src="https://raw.githubusercontent.com/luke-stts/week-05/refs/heads/main/pp.jpg" width= 150>
+
+        <hr>
+        <table border="1" style="width:50%">
+	    <thead>
+		<tr>
+		    <th colspan="2">Data Diri</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		    <td style="width:20%">Nama</td>
+			<td>Adrian</td>
+		</tr>
+		<tr>
+		    <td>NRP</td>
+			<td>225170697</td>
+		</tr>
+        <tr>
+		    <td>Alamat</td>
+			<td>221B Baker Street, London</td>
+		</tr>
+        <tr>
+		    <td>Tgl. Lahir</td>
+			<td>October 22nd 2077</td>
+		</tr>
+		</tbody>
+	</table>
+
+    <hr>
+    <label>Kemampuan</label>
+    <ul type="disc">
+	    <li>PS</li>
+        <li>AI</li>
+        <li>Gambar</li>
+        <li>Coding (Mediocre)</li>
+    </ul>
+    </body>
+</html>
