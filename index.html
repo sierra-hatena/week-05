@@ -2,7 +2,62 @@
 
 <html>
     <head>
+        <title>Isian</title>
     </head>
     <body>
+        <h1>Data Diri</h1>
+
+        
+        <form action="terima.html">
+        <fieldset id="datadiri">    
+        <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" required placeholder="Steven Bill">
+            <br>
+
+            <label for="pwd">Nama pangilan</label>
+            <input type="text" id="pwd" name="pwd" placeholder="Mr. Henderson">
+            <br>
+
+            <label for="nrp">NRP</label>
+            <input type="text" id="nrp" name="nrp" required placeholder="5634743">
+            <br>
+        
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" required>
+            <br>
+
+            <label for="surel">Alamat Email</label>
+            <input type="email" id="surel" name="surel" required placeholder="wildcat@yahoo.com">
+            <br>
+
+            <label for="ultah">Tanggal Lahir</label>
+            <input type="date" id="ultah" name="ultah" required placeholder="15/02/97">
+            <br>
+
+            <label for="telp">Nomer HP</label>
+            <input type="tel" id="telp" name="nohp" required placeholder="(516) 718-8727">
+            <br><br>
+        </fieldset>
+
+        <label for="gender">Jenis Kelamin</label>
+        <fieldset id="gender">
+            <input type="radio" name="gender" value="L">cowok</radio>
+            <br>
+            <input type="radio" name="gender" value="P">cewek</radio>
+            <br>
+            <input type="radio" name="gender" value="X" checked>terserah</radio>
+            <br>
+        </fieldset>
+        
+        <label for="pakar">Bisa Apa Saja?</label>
+        <fieldset id="pakar">
+            <input type="checkbox" name="pakar" value="PS">Bisa Photoshop<br>
+            <input type="checkbox" name="pakar" value="AI">Mahir AI yg Adobe Ilus<br>
+        </fieldset>
+        <br><br>
+        
+        <input type="submit">
+        </form>
+
     </body>
 </html>
